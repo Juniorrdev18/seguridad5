@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.containter {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #F5F5F5;
+    padding: 0;
+}
+
+.menu {
+    position: absolute;
+    padding: 0 5%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    padding: 15px;
+    background-color: #ff0000;
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #000000;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1; 
+    background-color: #4E4B5076;
+    padding: 20px;
+    min-width: 400px;    
+}
+
+/*BARRITA DISEÑO*/
+
+.ofert {
+    display: flex;
+    height: 35px;
+    background-color: #000000;
+    justify-content: center;
+}
+
+.ofert a {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ofert-1 {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    background-color: #000000;  
+}
+
+.ofert-img {
+    flex-basis: 50%;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.ofert-img i {
+    color: #ffd900;
+}
+
+.ofert-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+.ofert-txt h3 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.disen-principal {
+    display: flex;
+}
+
+.img-reference {
+    background-image: url(img/camaras/40.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 450px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: all .9s;
+
+}
+
+.img-reference:hover {
+    background-image: url(img/camaras/41.jpg);
+    transition: all .9s;
+
+}
+
+.description-reference {
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 10px;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+}
+
+
+
+.precios {
+    display: flex;
+    margin-top: 20px;
+}
+
+.precios p {
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.fake {
+    color: #a0a0a0;
+}
+
+.botones {
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.botones a {
+    background-color: orange;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 15px;
+    color: white;
+    margin: 0 8px;
+}
+
+
+footer {
+    background-color: #1d1d1d;
+    padding: 2%;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    flex-basis: calc(25% - 15px);
+    padding: 15px;
+    color: white;
+}
+
+.link p {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.link h2 {
+    color: #ffffff; 
+    font-size: 18px;
+    margin-bottom: 12px;
+
+}
+
+.link h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #ffa400; 
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.link ul li a {
+    color: white;
+    font-size: 13px;
+}
+
+.micuenta {
+    margin-top: 30px;
+}
+
+.unic {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    width: 100%;
+    padding-left: 40px;
+    color: white;
+    border-top: 0.1px solid white;
+    background-color: #1d1d1d;
+    height: 40px;
+}
+
+.Social-links a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5s ease;
+}
+
+.Social-links a:hover {
+    background-color: #ffbb00;
+}
